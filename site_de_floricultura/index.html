@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fox & Flora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Slab:wght@500&family=MonteCarlo&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <!---------------------header----------------------->
+    
+    <nav>
+        <a href="index.html">
+            <img src="img/fox___flora__3_-removebg-preview.png" alt="">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="">GALERIA</a></li>
+                <li><a href="">CONTATO</a></li>
+                <li><a href="">BLOG</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav> 
+    <div class="banner">
+        <img src="img/flores para os.jpg" alt="">
+    </div>
+
+  <!---------------------agradecimentos----------------------->
+   
+    <section class="container">
+        
+            <img src="img/e032f908408f18700753880ce87cfd58.jpg" alt="">
+        
+            <div class="text">
+                <h1>primeiro permita-me dizer</h1>
+                <hr>
+                <h2>Parabéns</h2>
+                <p>Se você está aqui procurando por flores, algo incrível está acontecendo em sua vida. Talvez você noivou, ou seu filho ou filha está se formando, ou algo maravihoso aconteceu a alguém próximo de você. Qualquer seja a ocasião, estamos felizes por você - e agradecemos a preferência.</p>
+            </div>
+        
+    </section>
+    
+ <!----------------------JavaScript------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
