@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Slab:wght@500&family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 
 *{
     margin: 0;
@@ -123,6 +124,7 @@ nav .fa{
         text-align: left;
         z-index: 2;
         transition: 0.5s;
+        background-color:#f7bac4;
     }
 
     nav .fa{
@@ -237,5 +239,68 @@ nav .fa{
     .container p{
         font-family: 'Bitter';
         font-size: 14px;
+    }
+}
+
+/*--------------Banner 2-------------*/
+.banner2{
+    height: 400px;
+    width: 100%;
+    background: url(img/online-flowers-2048px-0469-2x1-1.webp);
+    background-position: center;
+    background-size: auto;
+    position: relative;
+    text-align: center;
+}
+
+.background{
+    position: absolute;
+    background-color: #fceaedb0;
+    height: 30vh;
+    right: 30%;
+    left: 30%;
+    margin-top: 4%;
+    padding: 80px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+.background h1{
+    font-family: 'Passions Conflict';
+    font-size: 70px;
+    font-weight: 700;
+    color: #a01a3e;
+}
+
+@media(max-width: 850px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner2{
+        justify-content: center;
+    }
+    .background{
+        position: absolute;
+        background-color: #fceaedb0;
+        height: 20vh;
+        width: 90vw;
+        left: 5%;
+        margin-top: 110px;
+        border-radius: 10px;
+        line-height: 20px;
+    }
+    .background h1{
+        position: absolute;
+        font-family: 'Passions Conflict';
+        font-size: 35px;
+        font-weight: 700;
+        color: #a01a3e;
+        bottom: 70px;
+        right: 70px;
+        left: 85px;
     }
 }
