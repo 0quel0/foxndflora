@@ -304,3 +304,151 @@ nav .fa{
         left: 85px;
     }
 }
+
+/*--------------Fale Conosco-------------*/
+.faleconosco{
+    background-color:#ebb0ab;
+    height: 70vh;
+    padding: 25px;
+    text-align: center;
+}
+.faleconosco h1{
+    margin-bottom: 45px;
+    font-family: 'MonteCarlo';
+    font-size: 50px;
+    color: #a01a3e;
+}
+.formulario{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+}
+.left input{
+    margin-bottom: 45px;
+    height: 35px;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(235, 235, 235);
+    padding: 5px;
+}
+.left label{
+    margin-bottom: 5px;
+    font-family: 'Josefin Slab';
+    color: #a01a3e;
+    color: #a01a3e;
+    font-weight:bold;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30%;
+}
+.right textarea{
+    margin-bottom: 3px;
+    height: 243px;
+    width: 290px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 15px;
+    padding: 20px;
+    background: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right label{
+    margin-bottom: 5px;
+    font-family: 'Josefin Slab';
+    color: #a01a3e;
+    font-weight:bold;
+}
+
+button{
+    width: 65px;
+    height: 30px;
+    position: absolute;
+    right: 30%;
+    margin-top: 275px;
+    background-color: #aa3957;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+@media(max-width: 850px){
+    .faleconosco{
+        padding: 0;
+        height: 100vh;
+        align-content: center;
+        justify-items: center;
+    }
+    .faleconosco h1{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        left: 0;
+    }
+    .left input{
+        margin-bottom: 5px;
+        height: 35px;
+        width: 230px;
+        border: none;
+        border-radius: 5px;
+        background: rgb(235, 235, 235);
+        padding: 5px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        right: 0;
+    }
+    .right textarea{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 3px;
+        height: 243px;
+        width: 230px;;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        font-size: 13px;
+        padding: 5px;
+        background: rgb(235, 235, 235);
+    }
+    .right label{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-family: 'Josefin Slab';
+        color: #a01a3e;
+        font-weight:bold;
+    }
+
+    button{
+        width: 65px;
+        height: 30px;
+        position: relative;
+        background-color: #aa3957;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        margin-top: 480px;
+        left: 156px;
+    }
+}
